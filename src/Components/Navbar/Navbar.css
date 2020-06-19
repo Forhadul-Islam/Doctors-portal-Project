@@ -1,0 +1,12 @@
+.navBar {
+    display: flex;
+    justify-content: flex-end;
+}
+.navBar a {
+    padding: 10px;
+    color: #38727b;
+    text-decoration: none;
+}
+.navBar a:hover {    
+    color: #17a2b8;
+}

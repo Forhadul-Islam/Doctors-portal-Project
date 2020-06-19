@@ -1,0 +1,31 @@
+.datePickerArea {
+    background-image: url("../../images/Mask\ Group\ 2.png");
+    height: 450px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 40px;
+}
+.datePickerArea-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.calendar {
+    width: 300px;
+}
+.coverImage {
+    height: 250px;
+    width: 450px;
+    border-radius: 9px;
+}
+.calendarArea {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    color: rgba(86, 79, 84, 0.91);
+    background-color: #11e4e4;
+    border-radius: 15px;
+}

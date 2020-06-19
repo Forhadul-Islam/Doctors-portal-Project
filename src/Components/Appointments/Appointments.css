@@ -1,0 +1,14 @@
+.AppointmentsContainer {
+   
+}
+.calendarSection {
+    padding: 50px;
+    background-color: white;
+    margin: auto;
+}
+
+.currentDateAppointmentsArea{
+    padding: 50px;
+    background-color: white;
+    margin: auto;
+}

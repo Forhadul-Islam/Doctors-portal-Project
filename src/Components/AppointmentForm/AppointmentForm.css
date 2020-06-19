@@ -1,0 +1,68 @@
+.formArea {
+    text-align: center;
+}
+.appointmentSuccessMessage {
+    padding: 20px;
+    background-color: #28d2d4;
+    margin-bottom: 0;
+    border: 2px solid #455052;
+    color: #373a3a;
+}
+
+.formArea span {
+    font-size: 10px;
+    display: block;
+    color: red;
+}
+.formArea h4 {
+    font-variant: all-petite-caps;
+    font-family: sans-serif;
+    color: #ca5003;
+    font-size: 25px;
+}
+
+.formArea span::after{
+    content: "!";
+}
+
+.formInput {
+    margin-top: 5px;
+    padding: 7px;
+    width: 267px;
+    font-size: 12px;
+    height: 30px;
+    color: #1d2f2f;
+    font-weight: 500;
+    background-color: #e0ecea;
+    border: 1px solid #11d4d46e;
+    border-radius: 7px;
+}
+.formInput:focus{
+    outline: none;
+}
+
+.formSubmitButton {
+    background-color: #11d4d4;
+    padding: 6px;
+    font-weight: 500;
+    color: #545b62;
+    width: 267px;
+    margin-top: 6px;
+    border-radius: 6px;
+    border: 1px solid #32bbbb;
+    transition: .7s;
+}
+.formSubmitButton:focus {
+    outline: none;
+}
+.formSubmitButton:hover {
+    background-color: #e4165f;
+    padding: 6px;
+    font-weight: 500;
+    color: #ffffff;
+    border-radius: 6px;
+    border: 1px solid #ec1388;
+}
+.formSubmitButton:active {
+    font-weight: 470;
+}

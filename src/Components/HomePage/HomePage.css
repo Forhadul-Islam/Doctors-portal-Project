@@ -1,0 +1,25 @@
+.appointmentArea {
+    height: 100vh;
+    margin: 0;
+    padding-top: 17px;
+    background-image: url('../../images//Mask\ Group\ 2.png');
+    background-size: cover;
+}
+.appointmentArea .getAppointment {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.banarImg {
+    max-height: 87vh;
+}
+
+
+/* @media all and (max-width: 600px) {
+    .appointmentArea appointment {
+        display: block;
+    }
+    .appointmentArea {
+        height: auto;
+    }
+} */

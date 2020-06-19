@@ -1,0 +1,43 @@
+.serviceItem {
+    height: 133px;
+    width: 240px;
+    background-color: #f6f9fa;
+    padding: 12px;
+    line-height: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    margin: 16px;
+    box-shadow: 2px 2px 5px #8f8e8e;
+}
+.bookAppointmentBtn {
+    background-color: #00cece;
+    padding: 6px;
+    font-weight: 500;
+    color: #545b62;
+    border-radius: 6px;
+    border: 1px solid #32bbbb;
+    transition: .7s;
+}
+.bookAppointmentBtn:focus {
+    outline: none;
+}
+.bookAppointmentBtn:hover {
+    background-color: #e4165f;
+    padding: 6px;
+    font-weight: 500;
+    color: #ffffff;
+    border-radius: 6px;
+    border: 1px solid #ec1388;
+}
+.bookAppointmentBtn:active {
+    font-weight: 470;
+}
+.availableAppointments {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+}
